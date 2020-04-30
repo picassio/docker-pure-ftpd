@@ -1,0 +1,12 @@
+version: '2'
+services:
+  pure-ftpd:
+    image: pure-ftpd:1.0
+    volumes:
+      - "./data/ftpuser:/home/ftpuser"
+      - "./data/pure-ftpd:/opt/purefptd/etc/"
+    ports:
+      - "21:21"
+      - "30000-30009:30000-30009"
+    environment:
+      PUBLIC_HOST: "10.88.0.20"
