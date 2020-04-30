@@ -1,8 +1,8 @@
-###Volume
+### Volume
 * /opt/purefptd/etc/ 
 * /home/ftpuser
 
-###Environment
+### Environment
 |Environment|Default value|
 |PUBLIC_HOST|localhost|
 
