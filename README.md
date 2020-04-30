@@ -3,8 +3,8 @@
 * /home/ftpuser
 
 ### Environment
-|Environment|Default value|
-|PUBLIC_HOST|localhost|
+| Environment | Default value |
+| PUBLIC_HOST | localhost |
 
 ### Custom usage:
 ```bash
