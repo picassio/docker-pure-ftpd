@@ -1,7 +1,7 @@
 version: '2'
 services:
   pure-ftpd:
-    image: pure-ftpd:1.0
+    image: picassio/pure-ftpd:1.0
     volumes:
       - "./data/ftpuser:/home/ftpuser"
       - "./data/pure-ftpd:/opt/purefptd/etc/"
